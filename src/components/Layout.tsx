@@ -14,17 +14,13 @@ export default function Layout() {
               href: "#home"
             },
             {
-              name: "Calling Guide",
+              name: "Before You Call",
               href: "#about"
-            },
-            {
-              name: "What to Share",
-              href: "#product"
             }
           ]}
           cta={{
             text: "Call (818) 282-8559",
-            href: "tel:818) 282-8559"
+            href: "tel:+18182828559"
           }}
           introDelay={1.2}
         />
@@ -43,40 +39,32 @@ export default function Layout() {
                 {
                   text: "Woodland Hills, CA",
                   href: "#home"
-                },
-                {
-                  text: "Mon-Fri 8:00 AM - 5:00 PM",
-                  href: "#home"
                 }
               ]
             },
             {
-              title: "Information",
+              title: "Before You Call",
               links: [
                 {
-                  text: "Plumbing Help",
-                  href: "#home"
-                },
-                {
-                  text: "Before You Call",
+                  text: "The Plumbing Issue",
                   href: "#about"
                 },
                 {
-                  text: "Details Needed",
-                  href: "#product"
+                  text: "Your Neighborhood",
+                  href: "#about"
+                },
+                {
+                  text: "Preferred Timing",
+                  href: "#about"
                 }
               ]
             },
             {
-              title: "Contact Direct",
+              title: "Direct Phone",
               links: [
                 {
                   text: "(818) 282-8559",
-                  href: "tel:818) 282-8559"
-                },
-                {
-                  text: "info@plumbingworkswh.com",
-                  href: "mailto:info@plumbingworkswh.com"
+                  href: "tel:+18182828559"
                 }
               ]
             },
@@ -85,10 +73,6 @@ export default function Layout() {
               links: [
                 {
                   text: "Unofficial website concept",
-                  href: "#home"
-                },
-                {
-                  text: "Woodland Hills Plumbing Help",
                   href: "#home"
                 }
               ]
